@@ -65,7 +65,24 @@
             background-color: rgba(95, 252, 179, 0.5);
             height: 10vh;
             font-size: 2em;
+
+            
         }
+    }
+
+    @media screen and (max-width: 820px) {
+        @keyframes header-animation {
+            from {
+                background-position: 50% 0;
+            }
+    
+            to {
+                background-position: 50% 100%;
+                background-color: rgba(95, 252, 179, 0.5);
+                height: 25px;
+                font-size: 1em;
+            }
+        }      
     }
 
     .header-sticky {
@@ -224,6 +241,7 @@
     object-fit: cover;
     background: rgb(95, 252, 179);
     border-radius: 8px;
+    max-height: 250px;
 }
 
 .pin-section h3 {
