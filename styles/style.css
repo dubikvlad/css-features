@@ -57,7 +57,7 @@
 @supports(animation-range: 0vh 90vh) {
     @keyframes header-animation {
         from {
-            background-position: 50% 0;
+            background-position: 50% 50%;
         }
 
         to {
@@ -65,15 +65,13 @@
             background-color: rgba(95, 252, 179, 0.5);
             height: 10vh;
             font-size: 2em;
-
-            
         }
     }
 
     @media screen and (max-width: 820px) {
         @keyframes header-animation {
             from {
-                background-position: 50% 0;
+                background-position: 50% 50%;
             }
     
             to {
